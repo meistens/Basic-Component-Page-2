@@ -33,8 +33,8 @@ Created a responsive component page using Grid and FlexBox.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/meistens/Basic-Component-Page-2/tree/master/stats-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://basic-component-page-2.vercel.app)
+- Solution URL: [GitHub](https://github.com/meistens/Basic-Component-Page-2/tree/master/stats-preview-card-component-main)
+- Live Site URL: [Vercel](https://basic-component-page-2.vercel.app)
 
 ## My process
 
@@ -66,22 +66,12 @@ But in all honesty, got that idea from checking out [DarrickFauvel](https://www.
 
 When I am comfortable with using TailwindCSS, I will revisit this challenge (and others too).
 
-Plus, the image might be a bit off from the design, which is something I will work on behind the scenes.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+Plus, the image might be a bit off from the given design, which is something I will work on behind the scenes.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@meistens](https://www.frontendmentor.io/profile/meistens)
+- Twitter - [@ItzkrazyDave](https://www.twitter.com/ItzkrazyDave)
 
 ## Acknowledgments
 
