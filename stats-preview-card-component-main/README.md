@@ -1,9 +1,6 @@
-# THIS IS A WORK IN PROGRESS!!! SHOULD BE DONE WAY LONG BUT CURRENT ENVIRONMENT IS A MESS
-
-
 # Frontend Mentor - Stats preview card component solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -19,37 +16,31 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+Created a responsive component page using Grid and FlexBox.
 
 ### The challenge
 
-Users should be able to:
+- Optimized for mobile screens with a width of 414px below;
 
-- View the optimal layout depending on their device's screen size
+- Optimized for screens of 1440px;
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Mobile View](./images/iphoneX.png)
+![Desktop View](./images/13-inch-macbook-air-0-1440%20%C3%97%20900.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/meistens/Basic-Component-Page-2/tree/master/stats-preview-card-component-main)
+- Live Site URL: [Add live site URL here](https://basic-component-page-2.vercel.app)
 
 ## My process
+
 Started out by sketching the design on paper, then coding the design.
 
-Currentgly stumped with overlaying the purple accent on the design which wasted most of my time, will continue digging wwhile afk and apply em (without resorting to using the background image and hardcoding the width and height, even if I know the image aspect ratio).
+Built using a desktop-first approach, before moving on to style for mobile.
 
 ### Built with
 
@@ -61,11 +52,21 @@ Currentgly stumped with overlaying the purple accent on the design which wasted 
 
 ### What I learned
 
-Currently stuck with overlaying the image with the purple accent. For some reasons, I cannot seem to get it right and with current conditions I'm in, cannot do a proper research.
+Learnt about this cool feature called blend mode, which iI used to overlay the image.
 
-I will update when I figured it out.
+Goes thus
+
+```CSS
+mix-blend-mode: multiply;
+```
+
+But in all honesty, got that idea from checking out [DarrickFauvel](https://www.github.com/DarrickFauvel/fem07-stats-preview-card-component) repo after checking the slack channel for ideas.
 
 ### Continued development
+
+When I am comfortable with using TailwindCSS, I will revisit this challenge (and others too).
+
+Plus, the image might be a bit off from the design, which is something I will work on behind the scenes.
 
 ### Useful resources
 
@@ -84,6 +85,4 @@ I will update when I figured it out.
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks to [DarrickFauvel](https://www.github.com/DarrickFauvel/fem07-stats-preview-card-component), whose solution on how to apply the background helped.
