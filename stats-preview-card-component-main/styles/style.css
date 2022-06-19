@@ -69,11 +69,11 @@ header p {
   justify-content: space-between;
   padding-right: 2.5rem;
 }
-.statistics span strong {
+.statistics div strong {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
 }
-.statistics span p {
+.statistics div p {
   text-transform: uppercase;
 }
 footer {
