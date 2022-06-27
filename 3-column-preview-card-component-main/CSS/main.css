@@ -16,7 +16,7 @@
 body{
    background: var(--MCP);
    margin: 2rem;
-   
+   font-size: 15px;
 
 }
 h1, h2, h3{
@@ -29,9 +29,11 @@ h1, h2, h3{
 main{
    display: grid;
    grid-template-rows: repeat(3, 1fr);
+   border-radius: 10px;
+   overflow: hidden;
 }
 section{
-   padding: 0 2.2rem;
+   padding: 0 2.3rem;
 }
 section p{
    line-height: 1.9;
@@ -52,8 +54,28 @@ section.cardThree{
 section img{
    margin-top: 3rem;
 }
-
-
+section a{
+   padding: 1rem 2rem;
+   margin: 2rem 0;
+   display: inline-block;
+   background: var(--MCP);
+   border-radius: 2rem;
+   text-decoration: none;
+   color: var(--BO);
+   /* font-weight: 500; */
+   font-family: 'Lexend Deca', sans-serif;;
+}
+section a:hover, section a:focus{
+   background: transparent;
+   color: white;
+   border: 2px solid white;
+}
+.suvLink{
+   color: var(--DC);
+}
+.luxuryLink{
+   color: var(--VDC) ;
+}
 footer {
   font-size: 11px;
   text-align: center;

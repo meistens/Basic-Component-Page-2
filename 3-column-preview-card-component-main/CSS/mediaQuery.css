@@ -1,0 +1,15 @@
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+   body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+      margin: 0 14rem;
+   }
+   main{
+      grid-template: none/repeat(3, 1fr);
+   }
+   section{
+      padding: 0 3.8rem;
+   }
+}
