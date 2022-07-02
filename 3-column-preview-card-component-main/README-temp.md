@@ -52,5 +52,5 @@ More optimization for some screens ignored in the desktop space and also for the
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/meistens)
-- Twitter - [@yourusername](https://www.twitter.com/ItzkrazyDave)
+- Frontend Mentor - [@meistens](https://www.frontendmentor.io/profile/meistens)
+- Twitter - [@ItzkrazyDave](https://www.twitter.com/ItzkrazyDave)
