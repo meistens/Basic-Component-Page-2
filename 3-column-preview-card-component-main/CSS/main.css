@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
-
 *{
    margin: 0;
    padding: 0;
@@ -62,7 +61,6 @@ section a{
    border-radius: 2rem;
    text-decoration: none;
    color: var(--BO);
-   /* font-weight: 500; */
    font-family: 'Lexend Deca', sans-serif;;
 }
 section a:hover, section a:focus{
@@ -79,6 +77,7 @@ section a:hover, section a:focus{
 footer {
   font-size: 11px;
   text-align: center;
+  margin-top: 1rem;
 }
 footer a {
   color: hsl(228, 45%, 44%);
